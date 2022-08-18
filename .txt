@@ -1,0 +1,15 @@
+#include<studio.h>
+Int main()
+{
+int n,i,sum=0,sum1,a[10];
+int size=size-1;
+Printf("enter array size");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+sum=sum+i;
+sum1=(n*(n+1))/2;
+}
+Printf("%d",sum1-sum);
+return 0;
+}
